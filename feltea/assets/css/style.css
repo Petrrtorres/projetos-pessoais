@@ -218,6 +218,7 @@ position: relative;
   left: 130vh;
 
   padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+  box-shadow: 2px 2px 8px black;
 }
 
 .card__number, .card__number2 {
@@ -257,6 +258,8 @@ position: relative;
   left: 129vh;
 
   padding: 2rem 4rem 2rem 2rem;
+  
+  box-shadow: 2px 2px 8px black;
 }
 
 .rodape {
