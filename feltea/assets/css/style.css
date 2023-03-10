@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  
+  background-color: #7BD494;
+
+  font-family: sans-serif;
+
+  font-size: 62.5%;
+}
+
+.page {
+  width: 100vw;
+  height: 100vh;
+}
+
+.cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: relative;
+}
+
+.cabecalho__titulo {
+  font-size: 1.6rem;
+  font-weight: 300;
+  position: absolute;
+
+  top: 10%;
+  left: 3.5%;
+
+  text-transform: uppercase;
+}
+
+.cabecalho__menu {
+  position: absolute;
+
+  left: 36%;
+  top: 10%;
+
+  text-transform: uppercase;
+  font-family: 'Righteous', 'cursive';
+}
+
+.cabecalho__lista {
+  font-size: .9rem;
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.cabecalho__link {
+  text-decoration: none;
+  color: black;
+
+  padding: .6rem;
+  
+  transition: .3s;
+}
+
+.cabecalho__link:hover {
+  background-color: #78948046;
+  border-radius: .8rem;
+  padding: .6rem;
+  font-weight: 900;
+  
+}
+
+.bloco1 {
+  width: 100%;
+  height: 350px;
+  background-color: #FAD1CF;
+  align-self: center;
+  
+}
+.bloco2 {
+  width: 100%;
+  height: 350px;
+  background-color: #7BD494;
+  align-self: center;
+}
+
+.container {
+  position: relative;
+}
+
+.container__titulo {
+  font-size: 8.5rem;
+  font-family: 'Righteous', 'cursive';
+  font-weight: 300;
+  text-transform: uppercase;
+  
+  position: absolute;
+
+  top: -30%;
+  left: 34%;
+}
+
+.container__sub {
+  font-size: 4.5rem;
+  font-family: 'Righteous', 'cursive';
+  font-weight: 300;
+  text-transform: uppercase;
+
+  position: absolute;
+
+  top: -8%;
+  left: 37.5%;
+}
+
+.container__img {
+  background: url('../images/img-back.png') no-repeat center / cover;
+  margin: 0 auto;
+  width: 100%;
+  height: 90vh;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+
+  width: 400px;
+
+
+  font-size: 1.6rem;
+
+  position: relative;
+}
+
+.teste {
+  position: absolute;
+
+  top: -70vh;
+  left: 8%;
+}
+
+.text__titulo {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+
+  width: 390px;
+}
+
+.text__descricao {
+  font-size: 1rem;
+  line-height: 1.8rem;
+
+  width: 350px;
+}
+
+.card__text {
+  position: absolute;
+
+  top: -25vh;
+  left: 8%;
+
+  width: 180px;
+
+  font-size: 1.2rem;
+  font-weight: 700;
+
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem 1rem 1.4rem;
+  border-radius: 80px 80px 936px 82px;
+  text-align: center;
+
+  box-shadow: 2px 2px 8px black;
+  transition: .3s;
+}
+
+.card {
+  display: flex;
+}
+
+.card__text:hover {
+  background-color: #6dd487;
+  color: black;
+  cursor: pointer;
+  border: none;
+}
+
+.card__price {
+  position: absolute;
+
+  top: -25vh;
+  left: 70%;
+
+  font-size: 3rem;
+  font-weight: 800;
+  font-family: 'Righteous', 'cursive';
+  text-shadow: 1px 1px 5px black;
+}
+
+.cards {
+position: relative;
+}
+
+.card2{
+  background-color: #FFEB8F;
+  border-radius: 91px 0px 87px 5px;
+  color: #63A674;
+  font-family: 'Righteous', 'cursive';
+
+  position: absolute;
+
+  top: -90vh;
+  left: 130vh;
+
+  padding: 1.5rem 3.5rem 1.5rem 1.5rem;
+}
+
+.card__number, .card__number2 {
+  text-align: right;
+  margin-bottom: 2rem;
+
+  font-size: 1rem;
+}
+
+.card__ingredientes, .card__flavor {
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 1.1rem;
+
+  margin-bottom: 1rem;
+}
+
+.card__percentage, .card__percentage2 {
+  font-size: 2.5rem;
+}
+
+.card__organic, .card__variant {
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.card3{
+  background-color: #FFEB8F;
+  border-radius: 91px 0px 87px 5px;
+  color: #63A674;
+  font-family: 'Righteous', 'cursive';
+
+  position: absolute;
+
+  top: -45vh;
+  left: 129vh;
+
+  padding: 2rem 4rem 2rem 2rem;
+}
+
+.rodape {
+  background-color: black;
+  color: azure;
+  text-align: center;
+
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: .8rem;
+  width: 100vw;
+}
+
+.legenda {
+  padding: .2rem;
+}
+
+.legenda__link {
+  text-decoration: none;
+  font-weight: 800;
+  font-size: .9rem;
+  color: azure;
+}
+
+.legenda__link:hover {
+  text-decoration: underline;
+}
